@@ -11,7 +11,6 @@ typedef struct Person
 {
     std::string name;
     int parent1, parent2;
-    int id;
     int type;
 }Person;
 
@@ -28,7 +27,6 @@ int name2Id(const std::string &name)
         if (name == person[i].name)
             return i;
 
-    person[count].id = count;
     person[count].name = name;
     person[count].type = -100;
     person[count].parent1 = -100;
