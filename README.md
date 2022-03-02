@@ -1,2 +1,2 @@
-# Programming-in-CPLUSPLUS
+# Programming-in-Cplusplus
 ## Spring Semester, 110
