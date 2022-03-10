@@ -74,12 +74,15 @@ private:
 
 int main()
 {
-  // change the coordinate
-  Coordinate a = Coordinate(0,0);
-  Coordinate b = Coordinate(1,0);
-  Coordinate c = Coordinate(1,1);
-  Coordinate d = Coordinate(-1,-1);
+  // set the coordinate x, y
+  Coordinate a = Coordinate();
+  Coordinate b = Coordinate();
+  Coordinate c = Coordinate();
+  Coordinate d = Coordinate();
   Segment s1 = Segment(a, b);
   Segment s2 = Segment(c, d);
-  (s1.getIntersection(s2)) -> showCoordInfo();
+	if (s1.getIntersection(s2) == NULL)
+		std::cout << "NULL" << std::endl;
+	else
+		s1.getIntersection(s2) -> showCoordInfo();
 }
