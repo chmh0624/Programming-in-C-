@@ -81,8 +81,8 @@ int main()
   Coordinate d = Coordinate();
   Segment s1 = Segment(a, b);
   Segment s2 = Segment(c, d);
-	if (s1.getIntersection(s2) == NULL)
+  if (s1.getIntersection(s2) == NULL)
 		std::cout << "NULL" << std::endl;
-	else
+  else
 		s1.getIntersection(s2) -> showCoordInfo();
 }
