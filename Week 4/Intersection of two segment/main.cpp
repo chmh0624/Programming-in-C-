@@ -75,10 +75,10 @@ private:
 int main()
 {
   // set the coordinate x, y
-  Coordinate a = Coordinate();
-  Coordinate b = Coordinate();
-  Coordinate c = Coordinate();
-  Coordinate d = Coordinate();
+  Coordinate a = Coordinate(0,0);
+  Coordinate b = Coordinate(1,0);
+  Coordinate c = Coordinate(1,1);
+  Coordinate d = Coordinate(-1,-1);
   Segment s1 = Segment(a, b);
   Segment s2 = Segment(c, d);
   if (s1.getIntersection(s2) == NULL)
