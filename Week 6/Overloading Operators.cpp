@@ -21,6 +21,12 @@ public:
     Coordinate *c = new Coordinate(x - b.x, y - b.y);
     return *c;
   }
+  Coordinate operator=(const Coordinate &c)
+	{
+		this -> x = c.x;
+		this -> y = c.y;
+		return *this;
+	}
   
 private:
   int x, y;
