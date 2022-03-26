@@ -22,11 +22,11 @@ public:
     return *c;
   }
   Coordinate operator=(const Coordinate &c)
-	{
-		this -> x = c.x;
-		this -> y = c.y;
-		return *this;
-	}
+  {
+	this -> x = c.x;
+	this -> y = c.y;
+	return *this;
+  }
   
 private:
   int x, y;
