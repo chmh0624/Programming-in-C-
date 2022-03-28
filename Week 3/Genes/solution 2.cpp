@@ -1,4 +1,6 @@
 #include <iostream>
+#include <algorithm>
+
 #define D "dominant"
 #define R "recessive"
 #define N "non-existent"
