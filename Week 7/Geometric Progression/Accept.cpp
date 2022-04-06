@@ -2,6 +2,7 @@
 #include <cstdio>
 #include <cmath>
 
+// Finish the Class
 class F{
 private:
 	double a, r;
