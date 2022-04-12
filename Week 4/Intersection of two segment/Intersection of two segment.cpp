@@ -65,12 +65,12 @@ Coordinate *getIntersection(Segment S)
       else if (mySlopeY == 0)
       {
           interY = coefficient[0][2] / coefficient[0][1];
-          interX = (coefficient[1][2] - coefficient[1][1] * interX) / coefficient[1][0];
+          interX = (coefficient[1][2] - coefficient[1][1] * interY) / coefficient[1][0];
       }
       else if (sSlopeY == 0)
       {
           interY = coefficient[1][2] / coefficient[1][1];
-          interX = (coefficient[0][2] - coefficient[0][1] * interX) / coefficient[0][0];
+          interX = (coefficient[0][2] - coefficient[0][1] * interY) / coefficient[0][0];
       }
       else
       {
